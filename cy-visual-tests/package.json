@@ -1,0 +1,23 @@
+{
+  "name": "cy-visual-tests",
+  "version": "1.0.0",
+  "description": "visual regression testing using cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "visual",
+    "testing",
+    "snapshots"
+  ],
+  "author": "oimtrust",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.3.0",
+    "cypress-image-snapshot": "^3.1.1",
+    "prettier": "^2.0.4"
+  }
+}
