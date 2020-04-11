@@ -20,7 +20,10 @@ describe('Visual Regression', function() {
 describe('Single Element Snapshot', function() {
     it('Should match a single element on the page', () => {
         cy.visit('http://example.com/')
-        cy.get('h1').matchImageSnapshot()
+        cy.get('h1').matchImageSnapshot({
+            failureThreshold: 10.0,
+            failureThresholdType: "pixels"
+        })
     });
 });
     
