@@ -6,7 +6,6 @@ describe('Visual Regression - Login Page', function() {
         cy.get('#user_login').type('test')
         cy.get('#user_password').type('test')
         cy.get('#user_remember_me').click()
-        // cy.contains('Sign in').click()
     })
 
     it('Desktop Layout', () => {
