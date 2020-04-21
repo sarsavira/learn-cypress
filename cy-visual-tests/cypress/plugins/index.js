@@ -23,5 +23,3 @@ module.exports = (on, config) => {
   addMatchImageSnapshotPlugin(on, config)
   on("task", percyHealthCheck);
 }
-
-let percyHealthCheck = require('@percy/cypress/task')
