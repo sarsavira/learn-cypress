@@ -1,0 +1,27 @@
+{
+  "name": "cy-bdd-tests",
+  "version": "1.0.0",
+  "description": "Cypress with cucumber example",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "bdd",
+    "cucumber"
+  ],
+  "author": "oimtrust",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^2.3.1"
+  },
+  "dependencies": {
+    "cypress": "^4.4.1",
+    "prettier": "^2.0.4"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

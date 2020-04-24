@@ -1,0 +1,6 @@
+{
+    "video": false,
+    "defaultCommandTimeout": 5000,
+    "ignoreTestFiles": ["*.js", "*.md"],
+    "testFiles": "**/*.feature"
+}
