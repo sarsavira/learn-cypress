@@ -29,3 +29,7 @@ When('I click on submit login', () => {
 Then('I should see homepage', () => {
     cy.get('#account_summary_tab').should('be.visible')
 })
+
+Then('I should see error message', () => {
+    LoginPage.shouldShowErrorMessage()
+})
